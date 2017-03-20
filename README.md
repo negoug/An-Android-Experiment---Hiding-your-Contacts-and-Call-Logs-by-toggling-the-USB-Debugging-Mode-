@@ -29,6 +29,7 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 
 ## Last step: Wait for your phone to boot up and start playing!
 
+# ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
 # FAQ 
 ### What is a ROM?
