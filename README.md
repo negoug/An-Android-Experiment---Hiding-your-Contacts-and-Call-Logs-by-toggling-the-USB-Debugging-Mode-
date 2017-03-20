@@ -21,7 +21,7 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 * Tap Volume Up to highlight “Yes,” and Power to select it. 
 * Your phone will then be erased and the bootloader will be unlocked.
 
-## Step 3: Go and download the Android rom zip file from [here](file-directory)
+## Step 3: Go and download the custom-made Android rom zip file from [here](file-directory)
 * Unzip the zip file
 * Connect your Nexus5 device to your machine
 * If you are running on Linux, run the flash-all.sh file  
@@ -31,9 +31,7 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 
 # ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-# FAQ 
-### What is a ROM?
-Definition of: Android ROM. Android ROM. (Android Read Only Memory) A file containing the executable instructions (a system image) of an Android OS and affiliated apps. The "stock ROM" comes installed on the phone or tablet, while a "custom ROM" comes from a third party.
+
 
 
 
