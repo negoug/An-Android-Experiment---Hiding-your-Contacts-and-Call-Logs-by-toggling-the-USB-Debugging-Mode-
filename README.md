@@ -1,6 +1,6 @@
 ![alt text](https://www.android.com/static/2016/img/logo-android-green_1x.png "Android-Text-Logo")
 
-# Android-Experiments--Hindering_Forensics- 
+# Android-Experiments - (Hindering_Forensics) 
 
 This Android Experiment gives your phone the capability to hide your contacts and call logs by toggling between USB debugging mode. 
 
