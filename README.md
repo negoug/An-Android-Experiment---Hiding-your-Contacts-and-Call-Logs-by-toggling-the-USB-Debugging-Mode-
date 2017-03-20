@@ -29,6 +29,9 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 
 ## Last step: Wait for your phone to boot up and start playing!
 
+### What is a ROM?
+Definition of: Android ROM. Android ROM. (Android Read Only Memory) A file containing the executable instructions (a system image) of an Android OS and affiliated apps. The "stock ROM" comes installed on the phone or tablet, while a "custom ROM" comes from a third party.
+
 
 
 
