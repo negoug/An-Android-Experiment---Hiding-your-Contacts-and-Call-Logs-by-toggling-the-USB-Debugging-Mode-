@@ -25,11 +25,10 @@
 # Part 1- Extracting the boot image from the factory image
 ![](Images/Journey1.png?raw=true)
 
-#### Once you are done with the Part 1 Journey, here's a simple explanation of what has happened. You have basically unpacked an Android factory image and extracted out the contents in the boot.img file. 
-#### You should be able to see this 3 files : bootimg.cfg, zImage and initrd.img. 
-#### The bootimg.cfg file contains the bootsize, pagesize, kerneladdr, ramdiskaddr and other information about the boot image, it is used during the packing of boot image as shown as the green section in the image above.
-#### The zImage file is a compressed version of the Linux kernel image that is self-extracting as shown in the blue section in the image above.
-#### The initrd.img file stands for initial ramdisk which is a scheme for loading a temporary root file system into memory, which may be used as part of the Linux startup process as shown in the red section in the image above.
+#### Once you are done with the Part 1 Journey, here's a simple explanation of what has happened. You have basically unpacked an Android factory image and extracted out the contents in the boot.img file. You should be able to see this 3 files : bootimg.cfg, zImage and initrd.img. 
+* The bootimg.cfg file contains the bootsize, pagesize, kerneladdr, ramdiskaddr and other information about the boot image, it is used during the packing of boot image as shown as the green section in the image above.
+* The zImage file is a compressed version of the Linux kernel image that is self-extracting as shown in the blue section in the image above.
+* The initrd.img file stands for initial ramdisk which is a scheme for loading a temporary root file system into memory, which may be used as part of the Linux startup process as shown in the red section in the image above.
 
 ## Let's continue our Journey 
 
@@ -41,3 +40,10 @@
 
 # Part 4- Enabling Encryption and Decryption to take place in the system. ( The reason is because in the event whereby it is possible for a user to grab hold of all your data. The hidden data would be encrypted. ) 
 ![](Images/Journey4.png?raw=true)
+
+# Part 5- Creating Storage space for the Swapping of Data. In this experiment, we will be touching on 3 types of data.
+* Contacts & Call Logs which is located at /data/data/com.android.providers.contacts/databases/contacts2.db 
+* Text Messages which is located at /data/data/com.andrioid.providers.telephony/databases/mmssms.db 
+* Calendar which is located at /data/data/com.android.providers.calendar/databases/calendar.db. 
+### Therefore, we will be creating 6 different storage space for this 3 types of data)
+![](Images/Journey5.png?raw=true)
