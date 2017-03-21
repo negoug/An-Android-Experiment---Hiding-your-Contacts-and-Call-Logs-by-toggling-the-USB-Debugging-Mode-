@@ -14,6 +14,8 @@
 [3. Android NDK ](http://developer.android.com/ndk/downloads/index.html) 
 # 
 [4. The Android factory image “hammerhead” for Nexus 5 (GSM/LTE) for MMB29Q](https://dl.google.com/dl/android/aosp/hammerhead-mmb29qfactory-6356d31e.tgz)
+#
+[5. Files for reference in case you need help for the below section ](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/tree/master/Technical-Writeup-Files) 
 # ==== ==== ==== ==== ==== ==== ==== ==== ====
 
 # Here is a high-level view of what you were be doing to achieve this experiment.
@@ -33,24 +35,30 @@
 ## Let's continue our Journey 
 
 # Part 2- Creating a kernel for Android 6.0.1 Build: MMQ29Q and set SELINUX to permissive mode
+* The selinuxfs.c file can be reference from [here](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/tree/master/Technical-Writeup-Files/selinuxfs.c)
 ![](Images/Journey2.png?raw=true)
 
 # Part 3- Extracting the Initial RAM File System 
 ![](Images/Journey3.png?raw=true)
 
-# Part 4- Enabling Encryption and Decryption to take place in the system. ( The reason is because in the event whereby it is possible for a user to grab hold of all your data. The hidden data would be encrypted. ) 
+# Part 4- Enabling Encryption and Decryption to take place in the system. ( The reason is because in the event whereby it is possible for a user to grab hold of all your data. The hidden data would be encrypted. ) [The encryption and decryption file used](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/Enc-Dec.c) 
 ![](Images/Journey4.png?raw=true)
 
 # Part 5- Creating Storage space for the Swapping of Data. In this experiment, we will be touching on 3 types of data.
 * Contacts & Call Logs which is located at /data/data/com.android.providers.contacts/databases/contacts2.db 
 * Text Messages which is located at /data/data/com.andrioid.providers.telephony/databases/mmssms.db 
 * Calendar which is located at /data/data/com.android.providers.calendar/databases/calendar.db. 
-### Therefore, we will be creating 6 different storage space for this 3 types of data)
+### Therefore, we will be creating 6 different storage space for this 3 types of data) [init.rc reference](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/init.rc)
 ![](Images/Journey5.png?raw=true)
 
-# Part 6- Creation of a trigger to enable swapping of files, performing encryption of files when hiding sensitive files and decryption of files for displaying during the swap.
+# Part 6- Creation of a trigger to enable swapping of files, performing encryption of files when hiding sensitive files and decryption of files for displaying during the swap. [init.rc reference](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/init.rc)
 ![](Images/Journey6.png?raw=true)
 
 # Part 7- Repack the new Initial RAM File System and Repack the boot.img with the updated kernel and the new Initial RAM File System 
-![](Images/Journey7.png?raw=true)
+![](Images/Journey7.png?raw=true) 
+* [Updated-Kernel](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/zImage-dtb)  
+* [New Initial RAM File System](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/initrd.img)
+
+# Part 8- Replace the boot.img file with new boot.img file that you have created from Part 7 and load it into your device using Fastboot with the command: fastboot flash boot boot-new.img 
+
 
