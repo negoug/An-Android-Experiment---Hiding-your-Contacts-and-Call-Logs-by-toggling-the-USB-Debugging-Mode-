@@ -27,6 +27,9 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 * If you are running on Linux, run the flash-all.sh file  
 * If you are running on Windows, run the flash-all.bat file
 
+#Caution: Flashing a new system image deletes all user data. Be certain to first backup any personal data such as photos.
+
+
 ## Step 4: Connect your Nexus 5 to your machine and boot it to the bootloader.
 ####    Using the command: adb reboot bootloader
 
