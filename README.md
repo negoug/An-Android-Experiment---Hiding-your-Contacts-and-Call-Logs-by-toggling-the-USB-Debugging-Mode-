@@ -27,7 +27,14 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 * If you are running on Linux, run the flash-all.sh file  
 * If you are running on Windows, run the flash-all.bat file
 
-## Last step: Wait for your phone to boot up and start playing!
+## Step 4: Connect your Nexus 5 to your machine and boot it to the bootloader.
+####    Using the command: adb reboot bootloader
+
+## Step 5: Wait for your bootloader screen to appear.
+####    Once it does (big Android with START) type: fastboot oem lock
+####    The reason for locking your device is to ensure that all sensitive files would be wiped if someone were to choose to unlock the bootloader. Most of the times, many of the android forensic tools in the market today requires root access whereby one has to unlock the device to have it.
+
+## Last step: Boot up your phone and start playing!
 
 # ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
