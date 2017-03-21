@@ -59,6 +59,7 @@
 * [Updated-Kernel](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/zImage-dtb)  
 * [New Initial RAM File System](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup-Files/initrd.img)
 
-# Part 8- Replace the boot.img file with new boot.img file that you have created from Part 7 and load it into your device using Fastboot with the command: fastboot flash boot boot-new.img 
+# Part 8- Replace the boot.img file with new boot.img file that you have created from Part 7.
+* Load it into your device using Fastboot with the command: fastboot flash boot boot-new.img 
 
 
