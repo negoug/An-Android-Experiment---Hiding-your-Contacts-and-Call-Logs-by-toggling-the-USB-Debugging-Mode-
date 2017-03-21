@@ -1,0 +1,28 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=2
+persist.radio.use_cc_names=true
+persist.sys.usb.config=mtp
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+camera.disable_zsl_mode=1
+ro.adb.secure=1
+create=1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Fri Dec 11 00:56:01 UTC 2015
+ro.bootimage.build.date.utc=1449795361
+ro.bootimage.build.fingerprint=google/hammerhead/hammerhead:6.0.1/MMB29Q/2480792:user/release-keys
+
