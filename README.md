@@ -22,7 +22,7 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 * Tap Volume Up to highlight “Yes,” and Power to select it. 
 * Your phone will then be erased and the bootloader will be unlocked.
 
-## Step 3: Go and download the custom-made Android rom zip file from [here](file-directory)
+## Step 3: Go and download the custom-made Android Image zip file from [here](https://drive.google.com/file/d/0B-Zwk-ZJwFvYSXFQenRRcEhqbWM/view)
 * Unzip the zip file
 * Connect your Nexus5 device to your machine
 * If you are running on Linux, run the flash-all.sh file  
