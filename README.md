@@ -31,6 +31,7 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 
 # ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
+Go to [here](file-directory) for technical writeup on trying this experiment.
 
 
 
