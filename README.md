@@ -36,9 +36,9 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 
 ## Last step: Boot up your phone and start playing!
 
-# ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
+# ==== ==== ==== ==== ==== ==== ==== ==== ==== 
 
-Go to [here](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup.md) for technical writeup on trying this experiment.
+Click [here](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup.md) for technical writeup on trying this experiment.
 
 
 
