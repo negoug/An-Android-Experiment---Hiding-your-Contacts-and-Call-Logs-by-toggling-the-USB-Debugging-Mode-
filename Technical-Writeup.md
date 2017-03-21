@@ -47,3 +47,10 @@
 * Calendar which is located at /data/data/com.android.providers.calendar/databases/calendar.db. 
 ### Therefore, we will be creating 6 different storage space for this 3 types of data)
 ![](Images/Journey5.png?raw=true)
+
+# Part 6- Creation of a trigger to enable swapping of files, performing encryption of files when hiding sensitive files and decryption of files for displaying during the swap.
+![](Images/Journey6.png?raw=true)
+
+# Part 7- Repack the new Initial RAM File System and Repack the boot.img with the updated kernel and the new Initial RAM File System 
+![](Images/Journey7.png?raw=true)
+
