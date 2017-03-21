@@ -12,10 +12,11 @@ User must have android sdk tools pre-installed in their system.
 Android SDK tools can be downloaded from https://developer.android.com/studio/releases/platform-tools.html
 
 ## Step 1: Connect your Nexus 5 to your machine and boot it to the bootloader.
-####    Using the command: adb reboot bootloader
+####    Using the adb tool and execute the command: adb reboot bootloader
 
 ## Step 2: Wait for your bootloader screen to appear.
 ####    Once it does (big Android with START) type: fastboot oem unlock
+####    The target device will show you a confirmation screen. (This erases all data on the target device.) 
 
 * A bootloader unlock confirmation page will appear. 
 * Tap Volume Up to highlight “Yes,” and Power to select it. 
