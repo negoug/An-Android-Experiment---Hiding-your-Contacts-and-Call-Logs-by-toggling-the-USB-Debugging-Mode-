@@ -7,7 +7,7 @@
 # Inventory needed
 #### My recommendations are based on the version that I've used to build the experiment.
 # ==== ==== ==== ==== ==== ==== ==== ==== ====
-[2. Ubuntu Operating System {Recommended Version : 15.10} ](https://www.ubuntu.com/) 
+[1. Ubuntu Operating System {Recommended Version : 15.10} ](https://www.ubuntu.com/) 
 #
 [2. OpenSSL for Android {Recommended Version : 1.0.2g} ](https://wiki.openssl.org/index.php/Android)
 # 
@@ -33,4 +33,11 @@
 
 ## Let's continue our Journey 
 
-# Part 2- 
+# Part 2- Creating a kernel for Android 6.0.1 Build: MMQ29Q and set SELINUX to permissive mode
+![](Images/Journey2.png?raw=true)
+
+# Part 3- Extracting the Initial RAM File System 
+![](Images/Journey3.png?raw=true)
+
+# Part 4- Enabling Encryption and Decryption to take place in the system. ( The reason is because in the event whereby it is possible for a user to grab hold of all your data. The hidden data would be encrypted. ) 
+![](Images/Journey4.png?raw=true)
