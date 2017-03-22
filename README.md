@@ -45,7 +45,7 @@ Android SDK tools can be downloaded from https://developer.android.com/studio/re
 
 Click [here](https://github.com/negoug/Android-Experiments--Hindering_Forensics-/blob/master/Technical-Writeup.md) for the technical writeup on trying this experiment.
 
-#### Please be aware that I am not reliable if you were to brick your device while trying to attempt to try out this project. 
+#### Please be aware that I am not responsible if you were to brick your device while trying out this project. 
 #### Please ensure that you understand the commands and actions that you have executed on your device before executing it.
 #### To understand more about Android, I recommend you to readup from Android System Development by Free Electrons from [here](http://free-electrons.com/doc/training/android/android-slides.pdf)
 
