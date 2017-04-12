@@ -2,7 +2,7 @@
 ![alt text](https://www.android.com/static/2016/img/logo-android-green_1x.png "Android-Text-Logo")
 
 # Android-Experiments
-# (Hindering_Forensics) Technical Writeup
+# (Hiding your Contacts and Call Logs by toggling the USB Debugging Mode) Technical Writeup
 
 # Inventory needed
 #### My recommendations are based on the version that I've used to build the experiment.
