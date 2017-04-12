@@ -2,9 +2,13 @@
 
 # An Android-Experiment - (Hiding your Contacts and Call Logs by toggling the USB Debugging Mode) 
 
-The purpose of this experiment is to try out anti-forensics development on Android devices. 
+The purpose of this experiment is to try out anti-forensics development on Android devices.
 One of the reason for doing so is because there are times, where one might carry sensitive information on their Android devices. 
 Also, sometimes you might want to hide some data from a particular friend or partner. 
+The experiment result was a custom rom, whereby users have 2 sets of data one showing and the other hiding. 
+When a toggle is set, the data swaps and the hidden one is being encrypted and vice versa.
+Since the phone is locked, when an adversary would want to perform forensics to get data out, 
+the data would be wipe as unlocking requires wiping of the phone storage memory.
 
 # How to use
 
