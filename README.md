@@ -4,7 +4,7 @@
 
 The purpose of this experiment is to try out anti-forensics development on Android devices. 
 One of the reason for doing so is because there are times, where one might carry sensitive information on their Android devices. 
-Also, sometimes you want to hide some data from a particular friend or partner. 
+Also, sometimes you might want to hide some data from a particular friend or partner. 
 
 # How to use
 
