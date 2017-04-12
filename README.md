@@ -9,7 +9,7 @@ The experiment result was a custom rom. The custom rom allowed users to hide dat
 behind the scene(the backend) is that there are 2 sets of data one showing and the other hiding. 
 When a toggle is set, the data swaps and the hidden one is being encrypted and vice versa.
 Since the phone is locked, when an adversary would want to perform forensics to get data out, 
-the data would be wipe as unlocking requires wiping of the phone storage memory.
+the data would be wiped as unlocking requires wiping of the phone storage memory.
 
 # How to use
 
