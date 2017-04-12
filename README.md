@@ -1,8 +1,10 @@
 ![alt text](https://www.android.com/static/2016/img/logo-android-green_1x.png "Android-Text-Logo")
 
-# Android-Experiments - (Hindering_Forensics) 
+# An Android-Experiment - (Hiding your Contacts and Call Logs by toggling the USB Debugging Mode) 
 
-This Android Experiment gives your phone the capability to hide your contacts and call logs by toggling between USB debugging mode. 
+The purpose of this experiment is to try out anti-forensics development on Android devices. 
+One of the reason for doing so is because there are times, where one might carry sensitive information on their Android devices. 
+Also, sometimes you want to hide some data from a particular friend or partner. 
 
 # How to use
 
